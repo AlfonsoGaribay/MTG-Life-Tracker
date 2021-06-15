@@ -13,6 +13,7 @@
 		A6D392FA26781C96004F64BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D392F826781C96004F64BE /* Main.storyboard */; };
 		A6D392FC26781C98004F64BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D392FB26781C98004F64BE /* Assets.xcassets */; };
 		A6D392FF26781C98004F64BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D392FD26781C98004F64BE /* LaunchScreen.storyboard */; };
+		A6D3930B2678271F004F64BE /* MTGBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D3930A2678271F004F64BE /* MTGBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6D392FB26781C98004F64BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6D392FE26781C98004F64BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6D3930026781C98004F64BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D3930A2678271F004F64BE /* MTGBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		A6D392F126781C96004F64BE /* MTG Life Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				A6D3930926781CDC004F64BE /* Controllers */,
+				A6D3930726781CC9004F64BE /* Views */,
+				A6D3930626781CC2004F64BE /* Model */,
 				A6D392F226781C96004F64BE /* AppDelegate.swift */,
 				A6D392F426781C96004F64BE /* SceneDelegate.swift */,
-				A6D392F626781C96004F64BE /* ViewController.swift */,
-				A6D392F826781C96004F64BE /* Main.storyboard */,
 				A6D392FB26781C98004F64BE /* Assets.xcassets */,
 				A6D392FD26781C98004F64BE /* LaunchScreen.storyboard */,
 				A6D3930026781C98004F64BE /* Info.plist */,
 			);
 			path = "MTG Life Tracker";
+			sourceTree = "<group>";
+		};
+		A6D3930626781CC2004F64BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6D3930A2678271F004F64BE /* MTGBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6D3930726781CC9004F64BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6D392F826781C96004F64BE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6D3930926781CDC004F64BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6D392F626781C96004F64BE /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6D392F726781C96004F64BE /* ViewController.swift in Sources */,
+				A6D3930B2678271F004F64BE /* MTGBrain.swift in Sources */,
 				A6D392F326781C96004F64BE /* AppDelegate.swift in Sources */,
 				A6D392F526781C96004F64BE /* SceneDelegate.swift in Sources */,
 			);
