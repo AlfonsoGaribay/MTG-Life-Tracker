@@ -38,17 +38,20 @@ class ViewController: UIViewController {
         print(player2.playerID)
         
         let aPlusTwo: UIButton = playerTwoPlus2Button
-            aPlusTwo.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
+        aPlusTwo.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         let aPlusOne: UIButton = playerTwoPlus1Button
-            aPlusOne.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
+            aPlusOne.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         let aMinusTwo: UIButton = playerTwoMinus2Button
-            aMinusTwo.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
+            aMinusTwo.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         let aMinusOne: UIButton = playerTwoMinus1Button
-            aMinusOne.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
+            aMinusOne.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         let aReset: UIButton = resetPlayerTwo
-            aReset.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
+            aReset.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
+        
         let aHealthLabel: UILabel = playerTwoLifeLabel
-            aHealthLabel.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
+            aHealthLabel.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
+        
+        
     }
 
     

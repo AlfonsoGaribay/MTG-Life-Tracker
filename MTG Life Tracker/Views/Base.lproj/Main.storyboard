@@ -198,12 +198,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Kls-wI-1pU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0hB-aI-G1H"/>
                             <constraint firstAttribute="trailing" secondItem="ySX-Mc-gDi" secondAttribute="trailing" constant="10" id="2Th-d8-GvS"/>
-                            <constraint firstItem="Kls-wI-1pU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4cJ-uZ-BEY"/>
                             <constraint firstItem="ySX-Mc-gDi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="Msg-x8-iJY"/>
                             <constraint firstAttribute="bottom" secondItem="Kls-wI-1pU" secondAttribute="bottom" constant="-5" id="XxD-7G-Pe4"/>
+                            <constraint firstAttribute="trailing" secondItem="Kls-wI-1pU" secondAttribute="trailing" id="ZmV-yy-03Q"/>
                             <constraint firstItem="ySX-Mc-gDi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="25" id="dZG-3B-SpQ"/>
-                            <constraint firstItem="Kls-wI-1pU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jYL-v4-jJS"/>
                             <constraint firstItem="Kls-wI-1pU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-5" id="kbM-BT-hFH"/>
                             <constraint firstAttribute="bottom" secondItem="ySX-Mc-gDi" secondAttribute="bottom" constant="25" id="ztu-ab-67l"/>
                         </constraints>
