@@ -37,8 +37,9 @@ class ViewController: UIViewController {
         print(player1.playerID)
         print(player2.playerID)
         
+        // BELOW: allows for the rotation of the individual components... maybe try rotating it all together? 
         let aPlusTwo: UIButton = playerTwoPlus2Button
-        aPlusTwo.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
+            aPlusTwo.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         let aPlusOne: UIButton = playerTwoPlus1Button
             aPlusOne.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         let aMinusTwo: UIButton = playerTwoMinus2Button
@@ -47,7 +48,6 @@ class ViewController: UIViewController {
             aMinusOne.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         let aReset: UIButton = resetPlayerTwo
             aReset.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
-        
         let aHealthLabel: UILabel = playerTwoLifeLabel
             aHealthLabel.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         
@@ -55,7 +55,8 @@ class ViewController: UIViewController {
     }
 
     
-    // Plus 1 Button Function
+    //MARK: - Plus_1_button_function
+    
     @IBAction func upDownOnePressed(_ sender: UIButton) {
         switch sender {
         case playerOnePlus1Button:
@@ -78,7 +79,8 @@ class ViewController: UIViewController {
         playerTwoLifeLabel.text = String(player2.playerHealth)
     }
     
-    // Plus 2 Button Function
+    //MARK: - Plus_2_button_function
+   
     @IBAction func upDownTwoPressed(_ sender: UIButton) {
         switch sender {
         case playerOnePlus2Button:
@@ -101,6 +103,7 @@ class ViewController: UIViewController {
         playerTwoLifeLabel.text = String(player2.playerHealth)
     }
     
+    //MARK: - Reset_button
     
     @IBAction func resetButtonPressed(_ sender: UIButton) {
         print(">> life reset...")
